@@ -126,6 +126,19 @@ p {
 
 }
 
+.item-ios {
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.toolbar-title {
+  color: white;
+}
+
+.bar-button-default-ios{
+  color: white;
+  background-color: transparent;
+}
+
 .complete {
 
   color: $green;

@@ -137461,7 +137461,18 @@ p {
 }
 
 page-home .item {
-  background-color: rgba(51, 45, 42, 0.51) !important;
+  background: rgba(14, 14, 14, 0.66) !important;
+}
+
+page-home ion-label h2 {
+  margin-top: 1.8rem;
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600 !important;
+}
+
+page-home ion-label p {
+  color: #f1eded !important;
 }
 
 .page-menus .slide-zoom {
