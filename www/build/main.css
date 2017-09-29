@@ -136903,6 +136903,23 @@ ion-navbar.toolbar {
   background-size: cover !important;
 }
 
+.ion-content-dashboard {
+  background-image: url("../assets/toa-unicorn.jpg") !important;
+  background-size: cover !important;
+}
+
+.toolbar-background {
+  border-color: transparent !important;
+  background: transparent !important;
+}
+
+ion-slides {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(116, 119, 119, 0.66) !important;
+}
+
 ion-row.logo.row {
   width: 100px;
   height: 100px;
@@ -137434,9 +137451,46 @@ p {
   border-bottom: 1px solid #e8e8e8;
 }
 
+page-home .item {
+  background-color: rgba(51, 45, 42, 0.51) !important;
+}
+
+.page-menus .slide-zoom {
+  height: 100%;
+}
+
+.page-menus .slide-title {
+  margin-top: 2.8rem;
+}
+
+.page-menus .slide-image {
+  max-height: 50%;
+  max-width: 60%;
+  margin: 18px 0;
+}
+
+.page-menus b {
+  font-weight: 500;
+}
+
+.page-menus p {
+  padding: 0 40px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #60646B;
+}
+
+.page-menus p b {
+  color: #000000;
+}
+
 .keyboard-is-open page-login .scroll-content {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+}
+
+page-user-registration form {
+  background: rgba(14, 14, 14, 0.66) !important;
 }
 
 page-user-registration .item-md {

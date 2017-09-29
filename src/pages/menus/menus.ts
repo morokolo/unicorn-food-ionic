@@ -6,9 +6,29 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'menus.html'
 })
 export class MenusPage {
+  slides: Object;
 
   constructor(public navCtrl: NavController) {
-
+    this.slides = [
+      {
+        title: "R 78.50",
+        name: "Jalapeno & Cheese Burger",
+        description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
+        image: "assets/img/ica-slidebox-img-3.jpg",
+      },
+      {
+        title: "R 135.00",
+        name: "Jalapeno & Cheese Burger",
+        description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
+        image: "assets/img/ica-slidebox-img-3.jpg",
+      },
+      {
+        title: "R 23.00",
+        name: "Jalapeno & Cheese Burger",
+        description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
+        image: "assets/img/ica-slidebox-img-3.jpg",
+      }
+    ];
   }
 
 }
