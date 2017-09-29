@@ -10,79 +10,14 @@
 <ion-content class="ion-content-dashboard ">
 
   <ion-list (click)="goToResturant()">
-    <ion-item>
+    <ion-item *ngFor="let res of restuarants">
       <ion-thumbnail item-start>
         <img src="../../assets/logo_mcd.png"/>
       </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
+      <h2>{{res.name}}</h2>
+      <p>{{res.address}}</p>
     </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="../../assets/logo_mcd.png"/>
-      </ion-thumbnail>
-      <h2>MacDonalds</h2>
-      <p>Hayao Miyazaki • est. 1988</p>
-      
-    </ion-item>
-
+    
   </ion-list>
 
 </ion-content>

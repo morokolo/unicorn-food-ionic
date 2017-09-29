@@ -1,3 +1,4 @@
+import { HttpHelper } from './../providers/http-helper';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -11,9 +12,17 @@ import { ResturantsPage} from '../pages/resturants/resturants';
 import { SettingsPage} from '../pages/settings/settings';
 import { ListPage } from '../pages/list/list';
 import { MenusPage} from '../pages/menus/menus';
+import {OrdersPage} from '../pages/orders/orders';
 import { UserRegistrationPage} from '../pages/user-registration/user-registration';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+import { Camera, CameraOptions } from '@ionic-native/camera';
+
+import { AuthenticationService } from '../providers/authentication-service';
+import { IonicStorageModule } from '@ionic/storage';
+import { AppSettings } from '../providers/app-settings';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -26,11 +35,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SettingsPage,
     UserRegistrationPage,
     MenusPage,
-    ListPage
+    ListPage,
+    OrdersPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -43,12 +55,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SettingsPage,
     UserRegistrationPage,
     ListPage,
-    MenusPage
+    MenusPage,
+    OrdersPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    Camera,
+    AuthenticationService,
+    HttpHelper,
+    AppSettings
   ]
 })
 export class AppModule {}

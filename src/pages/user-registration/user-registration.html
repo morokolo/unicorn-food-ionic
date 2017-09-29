@@ -26,7 +26,26 @@
           Last Name is required
         </p>
       </div>
+      
+      <ion-item class="no-padding">
+        <ion-input clearInput type="text" placeholder="Username" required (ngModel)="username" name="username" #username="ngModel" ></ion-input>
+      </ion-item>
+      <!--password error divs-->
+      <div [hidden]="username.valid || username.untouched && !authForm.submitted">
+        <p ion-text color="danger">
+          Cellphone is required
+        </p>
+      </div>
 
+      <ion-item class="no-padding">
+        <ion-input clearInput type="password" placeholder="Password" required (ngModel)="password" name="password" #password="ngModel" ></ion-input>
+      </ion-item>
+      <!--password error divs-->
+      <div [hidden]="password.valid || password.untouched && !authForm.submitted">
+        <p ion-text color="danger">
+          Password is required
+        </p>
+      </div>
 
       <ion-item class="no-padding">
         <ion-input clearInput type="text" placeholder="Cell Number" required (ngModel)="cell" name="cell" #cell="ngModel" ></ion-input>
@@ -39,7 +58,7 @@
       </div>
 
       <ion-item class="no-padding">
-        <ion-input clearInput type="text" placeholder="Email Address" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>
+        <ion-input clearInput type="email" placeholder="Email Address" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>
       </ion-item>
       <!--password error divs-->
       <div [hidden]="email.valid || email.untouched && !authForm.submitted">
@@ -48,16 +67,16 @@
         </p>
       </div>
 
-      <ion-item class="no-padding">
+      <!-- <ion-item class="no-padding">
         <ion-input clearInput type="text" placeholder="Image" required (ngModel)="image" name="image" #image="ngModel" ></ion-input>
       </ion-item>
       <!--password error divs-->
-      <div [hidden]="email.valid || image.untouched && !authForm.submitted">
+      <!-- <div [hidden]="email.valid || image.untouched && !authForm.submitted">
         <p ion-text color="danger">
           Email address is required
         </p>
-      </div>
-
+      </div> -->
+      <!-- <input type="file" accept="image/*" (change)="handleInputChange($event)"/> -->
 
       <br><br>
 

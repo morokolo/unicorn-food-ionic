@@ -29,16 +29,16 @@ page-user-registration {
   }
 
   .text-input::-moz-placeholder {
-    color: white;
+    color: rgba(243, 241, 241, 0.7);
   }
   
   .text-input:-ms-input-placeholder {
-    color: white;
+    color: (243, 241, 241, 0.7);
   }
   
   .text-input::-webkit-input-placeholder {
     text-indent: 0;
-    color: white;
+    color: (243, 241, 241, 0.7);
   }
 
 
