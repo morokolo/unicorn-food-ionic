@@ -240,7 +240,7 @@ var UserRegistrationPage = (function () {
 }());
 UserRegistrationPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-user-registration',template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/user-registration/user-registration.html"*/'<ion-content padding class="ion-content-home">\n\n  <ion-row class="logo">\n    <img src="assets/logo-1.png">\n  </ion-row>\n\n  <ion-list>\n    <form (ngSubmit)="onSubmit(authForm)" #authForm="ngForm" padding novalidate>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="First Name" required (ngModel)="firstname" name="firstname" #firstname="ngModel" autocapitalize="none"></ion-input>\n      </ion-item>\n      <!--username error divs-->\n      <div [hidden]="firstname.valid || firstname.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          First Name is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Last Name" required (ngModel)="lastname" name="lastname" #lastname="ngModel" autocapitalize="none"></ion-input>\n      </ion-item>\n      <!--username error divs-->\n      <div [hidden]="lastname.valid || lastname.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Last Name is required\n        </p>\n      </div>\n\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Cell Number" required (ngModel)="cell" name="cell" #cell="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="cell.valid || cell.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Cellphone is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Email Address" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="email.valid || email.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Email address is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Image" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="email.valid || email.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Email address is required\n        </p>\n      </div>\n\n\n      <br><br>\n\n      <button ion-button type="submit" secondary full>Register</button>\n\n    </form>\n    <p ion-text class="text-center" color="vodacom-grey"> Version : {{versionId}} </p>\n  </ion-list>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/user-registration/user-registration.html"*/
+        selector: 'page-user-registration',template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/user-registration/user-registration.html"*/'<ion-content padding class="ion-content-home">\n\n  <ion-row class="logo">\n    <img src="assets/logo-1.png">\n  </ion-row>\n\n  <ion-list>\n    <form (ngSubmit)="onSubmit(authForm)" #authForm="ngForm" padding novalidate>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="First Name" required (ngModel)="firstname" name="firstname" #firstname="ngModel" autocapitalize="none"></ion-input>\n      </ion-item>\n      <!--username error divs-->\n      <div [hidden]="firstname.valid || firstname.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          First Name is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Last Name" required (ngModel)="lastname" name="lastname" #lastname="ngModel" autocapitalize="none"></ion-input>\n      </ion-item>\n      <!--username error divs-->\n      <div [hidden]="lastname.valid || lastname.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Last Name is required\n        </p>\n      </div>\n\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Cell Number" required (ngModel)="cell" name="cell" #cell="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="cell.valid || cell.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Cellphone is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Email Address" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="email.valid || email.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Email address is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Image" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="email.valid || email.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Email address is required\n        </p>\n      </div>\n\n\n      <br><br>\n\n      <button ion-button type="submit" secondary full>Register</button>\n\n    </form>\n  </ion-list>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/user-registration/user-registration.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
 ], UserRegistrationPage);
@@ -312,19 +312,19 @@ var MenusPage = (function () {
         this.navCtrl = navCtrl;
         this.slides = [
             {
-                title: "R 78.50",
+                price: "R 78.50",
                 name: "Jalapeno & Cheese Burger",
                 description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
                 image: "assets/img/ica-slidebox-img-3.jpg",
             },
             {
-                title: "R 135.00",
+                price: "R 135.00",
                 name: "Jalapeno & Cheese Burger",
                 description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
                 image: "assets/img/ica-slidebox-img-3.jpg",
             },
             {
-                title: "R 23.00",
+                price: "R 23.00",
                 name: "Jalapeno & Cheese Burger",
                 description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
                 image: "assets/img/ica-slidebox-img-3.jpg",
@@ -335,11 +335,12 @@ var MenusPage = (function () {
 }());
 MenusPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-menus',template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/menus/menus.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Menus</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="ion-content-dashboard ">\n  <ion-slides pager>\n    <ion-slide *ngFor="let slide of slides">\n      <ion-toolbar>\n        <ion-buttons end>\n          <button ion-button color="primary">Skip</button>\n        </ion-buttons>\n      </ion-toolbar>\n      <img [src]="slide.image" class="slide-image"/>\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <ion-list>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="img/thumbnail-totoro.png">\n          </ion-thumbnail>\n          <h2>My Neighbor Totoro</h2>\n          <p>Hayao Miyazaki • 1988</p>\n          <button ion-button clear item-end>View</button>\n        </ion-item>\n      </ion-list>\n      <p [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <ion-toolbar>\n      </ion-toolbar>\n      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>\n      <h2 class="slide-title">Ready to Play?</h2>\n      <button ion-button large clear icon-end color="primary">\n        Continue\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/menus/menus.html"*/
+        selector: 'page-menus',template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/menus/menus.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Menus</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="ion-content-dashboard ">\n  <ion-slides pager>\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image"/>\n      <ion-list>\n        <ion-item>\n          <p>{{slide.name}}</p>\n          <button ion-button clear item-end>{{slide.price}}</button>\n        </ion-item>\n\n      </ion-list>\n      <p [innerHTML]="slide.description"></p>\n      <ion-list>\n        <ion-item class="small-item">\n          <ion-input type="text" placeholder="1"></ion-input>\n        </ion-item>\n      </ion-list>\n\n      <button ion-button secondary full>Add To Order</button>\n    </ion-slide>\n    <ion-slide>\n      <ion-toolbar>\n      </ion-toolbar>\n      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>\n      <h2 class="slide-title">Ready to Play?</h2>\n      <button ion-button large clear icon-end color="primary">\n        Continue\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/menus/menus.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
 ], MenusPage);
 
+var _a;
 //# sourceMappingURL=menus.js.map
 
 /***/ }),
@@ -458,10 +459,10 @@ AppModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_about_about__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_help_help__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_user_history_user_history__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_resturants_resturants__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_about_about__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_help_help__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_user_history_user_history__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_settings_settings__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_user_registration_user_registration__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -492,11 +493,13 @@ var MyApp = (function () {
         this.initializeApp();
         // used for an example of ngFor and navigation
         this.pages = [
-            { title: 'Resturants', component: __WEBPACK_IMPORTED_MODULE_7__pages_resturants_resturants__["a" /* ResturantsPage */] },
-            { title: 'History', component: __WEBPACK_IMPORTED_MODULE_6__pages_user_history_user_history__["a" /* UserHistoryPage */] },
-            { title: 'Help', component: __WEBPACK_IMPORTED_MODULE_5__pages_help_help__["a" /* HelpPage */] },
-            { title: 'Settings', component: __WEBPACK_IMPORTED_MODULE_8__pages_settings_settings__["a" /* SettingsPage */] },
-            { title: 'About', component: __WEBPACK_IMPORTED_MODULE_4__pages_about_about__["a" /* AboutPage */] }
+            { title: 'Resturants', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */], icon: 'ios-restaurant' },
+            { title: 'Orders', component: __WEBPACK_IMPORTED_MODULE_8__pages_settings_settings__["a" /* SettingsPage */], icon: 'ios-settings-outline' },
+            { title: 'History', component: __WEBPACK_IMPORTED_MODULE_7__pages_user_history_user_history__["a" /* UserHistoryPage */], icon: 'ios-clock-outline' },
+            { title: 'Help', component: __WEBPACK_IMPORTED_MODULE_6__pages_help_help__["a" /* HelpPage */], icon: 'ios-help-circle-outline' },
+            { title: 'Settings', component: __WEBPACK_IMPORTED_MODULE_8__pages_settings_settings__["a" /* SettingsPage */], icon: 'ios-settings-outline' },
+            { title: 'Payments', component: __WEBPACK_IMPORTED_MODULE_8__pages_settings_settings__["a" /* SettingsPage */], icon: 'ios-settings-outline' },
+            { title: 'About', component: __WEBPACK_IMPORTED_MODULE_5__pages_about_about__["a" /* AboutPage */], icon: 'ios-bookmark-outline' }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -517,14 +520,15 @@ var MyApp = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]) === "function" && _a || Object)
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/app/app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-list>\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="http://ionicframework.com/dist/preview-app/www/assets/img/avatar-ts-woody.png">\n        </ion-avatar>\n        <h2>John Doe</h2>\n      </ion-item>\n    </ion-list>\n\n  </ion-header>\n  <ion-content>\n    <ion-list>\n      <ion-item menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        <ion-icon name="{{p.icon}}" item-start></ion-icon>\n        {{p.title}}\n      </ion-item>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
 ], MyApp);
 
+var _a, _b, _c, _d;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
@@ -575,7 +579,7 @@ var ListPage = ListPage_1 = (function () {
 }());
 ListPage = ListPage_1 = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list',template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/list/list.html"*/
+        selector: 'page-list',template:/*ion-inline-start:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/list/list.html"*/''/*ion-inline-end:"/Users/justicematotoka/Projects/unicorn-food-ionic/src/pages/list/list.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
 ], ListPage);

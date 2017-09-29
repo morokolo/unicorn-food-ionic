@@ -10,25 +10,22 @@
 <ion-content padding class="ion-content-dashboard ">
   <ion-slides pager>
     <ion-slide *ngFor="let slide of slides">
-      <ion-toolbar>
-        <ion-buttons end>
-          <button ion-button color="primary">Skip</button>
-        </ion-buttons>
-      </ion-toolbar>
       <img [src]="slide.image" class="slide-image"/>
-      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
-      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
       <ion-list>
         <ion-item>
-          <ion-thumbnail item-start>
-            <img src="img/thumbnail-totoro.png">
-          </ion-thumbnail>
-          <h2>My Neighbor Totoro</h2>
-          <p>Hayao Miyazaki • 1988</p>
-          <button ion-button clear item-end>View</button>
+          <p>{{slide.name}}</p>
+          <button ion-button clear item-end>{{slide.price}}</button>
         </ion-item>
+
       </ion-list>
       <p [innerHTML]="slide.description"></p>
+      <ion-list>
+        <ion-item class="small-item">
+          <ion-input type="text" placeholder="1"></ion-input>
+        </ion-item>
+      </ion-list>
+
+      <button ion-button secondary full>Add To Order</button>
     </ion-slide>
     <ion-slide>
       <ion-toolbar>

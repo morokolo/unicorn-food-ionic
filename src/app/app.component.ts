@@ -19,18 +19,20 @@ export class MyApp {
 
   rootPage: any = UserRegistrationPage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any, icon: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Resturants', component: ResturantsPage },
-      { title: 'History', component: UserHistoryPage },
-      { title: 'Help', component: HelpPage },
-      { title: 'Settings', component: SettingsPage },
-      { title: 'About', component: AboutPage }
+      { title: 'Resturants', component: HomePage, icon: 'ios-restaurant' },
+      { title: 'Orders', component: SettingsPage, icon: 'ios-settings-outline' },
+      { title: 'History', component: UserHistoryPage ,icon: 'ios-clock-outline'},
+      { title: 'Help', component: HelpPage, icon: 'ios-help-circle-outline' },
+      { title: 'Settings', component: SettingsPage, icon: 'ios-settings-outline' },
+      { title: 'Payments', component: SettingsPage, icon: 'ios-settings-outline' },
+      { title: 'About', component: AboutPage , icon: 'ios-bookmark-outline'}
     ];
 
   }
