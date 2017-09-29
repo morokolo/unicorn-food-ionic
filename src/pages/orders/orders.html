@@ -3,16 +3,41 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title color="white">Home</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content class="ion-content-dashboard ">
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <ion-list (click)="goToResturant()">
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="../../assets/img/ica-slidebox-img-3.jpg"/>
+      </ion-thumbnail>
+      <h2>MacDonalds</h2>
+      <p>Hayao Miyazaki • est. 1988</p>
+      <button ion-button clear item-end>R 78.00</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="../../assets/img/ica-slidebox-img-3.jpg"/>
+      </ion-thumbnail>
+      <h2>MacDonalds</h2>
+      <p>Hayao Miyazaki • est. 1988</p>
+      <button ion-button clear item-end>R 78.00</button>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="../../assets/img/ica-slidebox-img-3.jpg"/>
+      </ion-thumbnail>
+      <h2>MacDonalds</h2>
+      <p>Hayao Miyazaki • est. 1988</p>
+      <button ion-button clear item-end>R 78.00</button>
+    </ion-item>
+
+    <button ion-button primary full (click)="makePayment()">Make Payment</button>
+
+  </ion-list>
+
 </ion-content>

@@ -137527,6 +137527,21 @@ page-home ion-label p {
   color: #000000;
 }
 
+page-order .item {
+  background: rgba(14, 14, 14, 0.66) !important;
+}
+
+page-order ion-label h2 {
+  margin-top: 1.8rem;
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600 !important;
+}
+
+page-order ion-label p {
+  color: #f1eded !important;
+}
+
 .keyboard-is-open page-login .scroll-content {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
