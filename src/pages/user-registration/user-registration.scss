@@ -9,6 +9,10 @@
 
 page-user-registration {
 
+  form {
+    background: rgba(14, 14, 14, 0.66) !important;
+  }
+
   .item-md {
     padding-left: 16px;
     padding-right: 0;
@@ -30,18 +34,15 @@ page-user-registration {
 
   .text-input::-moz-placeholder {
     color: white;
-    font-weight: bold;
   }
   
   .text-input:-ms-input-placeholder {
     color: white;
-    font-weight: bold;
   }
   
   .text-input::-webkit-input-placeholder {
     text-indent: 0;
     color: white;
-    font-weight: bold;
   }
 
 

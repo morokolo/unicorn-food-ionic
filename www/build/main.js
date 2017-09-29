@@ -40,7 +40,7 @@ webpackEmptyAsyncContext.id = 148;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -75,7 +75,7 @@ AboutPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HelpPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -110,7 +110,7 @@ HelpPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserHistoryPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -145,7 +145,7 @@ UserHistoryPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResturantsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -180,7 +180,7 @@ ResturantsPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -215,7 +215,7 @@ SettingsPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserRegistrationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -242,10 +242,9 @@ UserRegistrationPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-user-registration',template:/*ion-inline-start:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/user-registration/user-registration.html"*/'<ion-content padding class="ion-content-home">\n\n  <ion-row class="logo">\n    <img src="assets/logo-1.png">\n  </ion-row>\n\n  <ion-list>\n    <form (ngSubmit)="onSubmit(authForm)" #authForm="ngForm" padding novalidate>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="First Name" required (ngModel)="firstname" name="firstname" #firstname="ngModel" autocapitalize="none"></ion-input>\n      </ion-item>\n      <!--username error divs-->\n      <div [hidden]="firstname.valid || firstname.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          First Name is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Last Name" required (ngModel)="lastname" name="lastname" #lastname="ngModel" autocapitalize="none"></ion-input>\n      </ion-item>\n      <!--username error divs-->\n      <div [hidden]="lastname.valid || lastname.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Last Name is required\n        </p>\n      </div>\n\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Cell Number" required (ngModel)="cell" name="cell" #cell="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="cell.valid || cell.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Cellphone is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Email Address" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="email.valid || email.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Email address is required\n        </p>\n      </div>\n\n      <ion-item class="no-padding">\n        <ion-input clearInput type="text" placeholder="Image" required (ngModel)="image" name="image" #image="ngModel" ></ion-input>\n      </ion-item>\n      <!--password error divs-->\n      <div [hidden]="email.valid || image.untouched && !authForm.submitted">\n        <p ion-text color="danger">\n          Email address is required\n        </p>\n      </div>\n\n\n      <br><br>\n\n      <button ion-button type="submit" secondary full>Register</button>\n\n    </form>\n    <p ion-text class="text-center" color="vodacom-grey"> Version : {{versionId}} </p>\n  </ion-list>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/user-registration/user-registration.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
 ], UserRegistrationPage);
 
-var _a;
 //# sourceMappingURL=user-registration.js.map
 
 /***/ }),
@@ -256,7 +255,8 @@ var _a;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menus_menus__ = __webpack_require__(199);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -268,15 +268,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var HomePage = (function () {
     function HomePage(navCtrl) {
         this.navCtrl = navCtrl;
     }
+    HomePage.prototype.goToResturant = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__menus_menus__["a" /* MenusPage */]);
+    };
     return HomePage;
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n  </p>\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n</ion-content>\n'/*ion-inline-end:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title color="white">Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="ion-content-dashboard ">\n\n  <ion-list (click)="goToResturant()">\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n    <ion-item>\n      <ion-thumbnail item-start>\n        <img src="../../assets/logo_mcd.png"/>\n      </ion-thumbnail>\n      <h2>MacDonalds</h2>\n      <p>Hayao Miyazaki • est. 1988</p>\n      \n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
 ], HomePage);
@@ -289,9 +293,64 @@ HomePage = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenusPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var MenusPage = (function () {
+    function MenusPage(navCtrl) {
+        this.navCtrl = navCtrl;
+        this.slides = [
+            {
+                title: "R 78.50",
+                name: "Jalapeno & Cheese Burger",
+                description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
+                image: "assets/img/ica-slidebox-img-3.jpg",
+            },
+            {
+                title: "R 135.00",
+                name: "Jalapeno & Cheese Burger",
+                description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
+                image: "assets/img/ica-slidebox-img-3.jpg",
+            },
+            {
+                title: "R 23.00",
+                name: "Jalapeno & Cheese Burger",
+                description: "Topped with melted cheese, chilli con carne, nachos and guacamole. ",
+                image: "assets/img/ica-slidebox-img-3.jpg",
+            }
+        ];
+    }
+    return MenusPage;
+}());
+MenusPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-menus',template:/*ion-inline-start:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/menus/menus.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Menus</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="ion-content-dashboard ">\n  <ion-slides pager>\n    <ion-slide *ngFor="let slide of slides">\n      <ion-toolbar>\n        <ion-buttons end>\n          <button ion-button color="primary">Skip</button>\n        </ion-buttons>\n      </ion-toolbar>\n      <img [src]="slide.image" class="slide-image"/>\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <ion-list>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="img/thumbnail-totoro.png">\n          </ion-thumbnail>\n          <h2>My Neighbor Totoro</h2>\n          <p>Hayao Miyazaki • 1988</p>\n          <button ion-button clear item-end>View</button>\n        </ion-item>\n      </ion-list>\n      <p [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <ion-toolbar>\n      </ion-toolbar>\n      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>\n      <h2 class="slide-title">Ready to Play?</h2>\n      <button ion-button large clear icon-end color="primary">\n        Continue\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/menus/menus.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+], MenusPage);
+
+//# sourceMappingURL=menus.js.map
+
+/***/ }),
+
+/***/ 200:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(219);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -299,31 +358,33 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 218:
+/***/ 219:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(260);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_about_about__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_help_help__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_user_history_user_history__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_resturants_resturants__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_settings_settings__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_list_list__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_user_registration_user_registration__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_status_bar__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_list_list__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_menus_menus__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_user_registration_user_registration__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__ = __webpack_require__(191);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -353,7 +414,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_7__pages_user_history_user_history__["a" /* UserHistoryPage */],
             __WEBPACK_IMPORTED_MODULE_8__pages_resturants_resturants__["a" /* ResturantsPage */],
             __WEBPACK_IMPORTED_MODULE_9__pages_settings_settings__["a" /* SettingsPage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_user_registration_user_registration__["a" /* UserRegistrationPage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_user_registration_user_registration__["a" /* UserRegistrationPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_menus_menus__["a" /* MenusPage */],
             __WEBPACK_IMPORTED_MODULE_10__pages_list_list__["a" /* ListPage */]
         ],
         imports: [
@@ -371,12 +433,13 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_7__pages_user_history_user_history__["a" /* UserHistoryPage */],
             __WEBPACK_IMPORTED_MODULE_8__pages_resturants_resturants__["a" /* ResturantsPage */],
             __WEBPACK_IMPORTED_MODULE_9__pages_settings_settings__["a" /* SettingsPage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_user_registration_user_registration__["a" /* UserRegistrationPage */],
-            __WEBPACK_IMPORTED_MODULE_10__pages_list_list__["a" /* ListPage */]
+            __WEBPACK_IMPORTED_MODULE_12__pages_user_registration_user_registration__["a" /* UserRegistrationPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_list_list__["a" /* ListPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_menus_menus__["a" /* MenusPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_12__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_13__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
         ]
     })
@@ -386,13 +449,13 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 259:
+/***/ 260:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_about_about__ = __webpack_require__(192);
@@ -466,13 +529,13 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 268:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -522,5 +585,5 @@ var ListPage_1;
 
 /***/ })
 
-},[199]);
+},[200]);
 //# sourceMappingURL=main.js.map
