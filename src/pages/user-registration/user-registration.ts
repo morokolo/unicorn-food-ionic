@@ -19,7 +19,7 @@ export class UserRegistrationPage {
 
   onSubmit(form: Object) {
     
-    this.navCtrl.setRoot(HomePage);
+    // this.navCtrl.setRoot(HomePage);
 
     let user = {
       "user":{
