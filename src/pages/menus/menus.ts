@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {OrdersPage} from "../orders/orders";
 
 @Component({
   selector: 'page-menus',
@@ -29,6 +30,10 @@ export class MenusPage {
         image: "assets/img/ica-slidebox-img-3.jpg",
       }
     ];
+  }
+
+  goToOrder() {
+    this.navCtrl.push(OrdersPage);
   }
 
 }
