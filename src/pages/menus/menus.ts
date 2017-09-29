@@ -7,6 +7,7 @@ import { NavController } from 'ionic-angular';
 })
 export class MenusPage {
   slides: Object;
+  sliderOptions: Object;
 
   constructor(public navCtrl: NavController) {
     this.slides = [
@@ -29,6 +30,10 @@ export class MenusPage {
         image: "assets/img/ica-slidebox-img-3.jpg",
       }
     ];
+
+    this.sliderOptions = {
+      height: 100
+    };
   }
 
 }

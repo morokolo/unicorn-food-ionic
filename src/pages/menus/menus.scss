@@ -1,17 +1,18 @@
 .page-menus {
 
-  .slide-zoom {
-    height: 100%;
-  }
 
   item {
     color: #ffffff;
     background-color: transparent !important;
   }
 
-  ion-item.small-item.item.item-block.item-ios.item-input {
+  .small-item {
     width: 50px;
     margin: auto;
+  }
+
+  .swiper-slide.slide-zoom {
+    height: 100%;
   }
 
   .slide-title {
