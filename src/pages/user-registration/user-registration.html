@@ -49,10 +49,10 @@
       </div>
 
       <ion-item class="no-padding">
-        <ion-input clearInput type="text" placeholder="Image" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>
+        <ion-input clearInput type="text" placeholder="Image" required (ngModel)="image" name="image" #image="ngModel" ></ion-input>
       </ion-item>
       <!--password error divs-->
-      <div [hidden]="email.valid || email.untouched && !authForm.submitted">
+      <div [hidden]="email.valid || image.untouched && !authForm.submitted">
         <p ion-text color="danger">
           Email address is required
         </p>
