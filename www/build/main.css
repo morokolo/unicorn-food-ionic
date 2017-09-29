@@ -136968,6 +136968,14 @@ p {
   padding: 0 16px !important;
 }
 
+.item-ios {
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.toolbar-title {
+  color: white;
+}
+
 .bar-button-default-ios {
   color: white;
   background-color: transparent;
@@ -137457,7 +137465,7 @@ p {
 }
 
 page-home .item {
-  background-color: rgba(51, 45, 42, 0.51) !important;
+  background: rgba(14, 14, 14, 0.66) !important;
 }
 
 page-home ion-label h2 {
@@ -137521,10 +137529,6 @@ page-user-registration .item-md {
   box-shadow: none;
   -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-page-user-registration p {
-  margin: 11px 0 0 21px;
 }
 
 page-user-registration .text-input::-moz-placeholder {
