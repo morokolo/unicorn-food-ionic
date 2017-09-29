@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {OrdersPage} from "../orders/orders";
 
 @Component({
   selector: 'page-menus',
@@ -34,6 +35,10 @@ export class MenusPage {
     this.sliderOptions = {
       height: 100
     };
+  }
+
+  goToOrder() {
+    this.navCtrl.push(OrdersPage);
   }
 
 }

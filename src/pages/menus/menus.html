@@ -22,10 +22,11 @@
       <ion-list>
         <ion-item class="small-item">
           <ion-input type="text" placeholder="1"></ion-input>
+          <button item-end ion-button secondary >Add To Order</button>
         </ion-item>
       </ion-list>
 
-      <button ion-button secondary full>Add To Order</button>
+      <button ion-button primary full (click)="goToOrder()">Send Order</button>
     </ion-slide>
     <ion-slide>
       <ion-toolbar>

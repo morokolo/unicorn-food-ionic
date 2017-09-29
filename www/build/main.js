@@ -75,20 +75,16 @@ var MenusPage = (function () {
                 image: "assets/img/ica-slidebox-img-3.jpg",
             }
         ];
-        this.sliderOptions = {
-            height: 100
-        };
     }
     return MenusPage;
 }());
 MenusPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-menus',template:/*ion-inline-start:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/menus/menus.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Menus</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="ion-content-dashboard ">\n  <ion-slides pager>\n    <ion-slide options="sliderOptions" *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image"/>\n      <ion-list>\n        <ion-item>\n          <p>{{slide.name}}</p>\n          <button ion-button clear item-end>{{slide.price}}</button>\n        </ion-item>\n\n      </ion-list>\n      <p [innerHTML]="slide.description"></p>\n      <ion-list>\n        <ion-item class="small-item">\n          <ion-input type="text" placeholder="1"></ion-input>\n        </ion-item>\n      </ion-list>\n\n      <button ion-button secondary full>Add To Order</button>\n    </ion-slide>\n    <ion-slide>\n      <ion-toolbar>\n      </ion-toolbar>\n      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>\n      <h2 class="slide-title">Ready to Play?</h2>\n      <button ion-button large clear icon-end color="primary">\n        Continue\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/menus/menus.html"*/
+        selector: 'page-menus',template:/*ion-inline-start:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/menus/menus.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Menus</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="ion-content-dashboard ">\n  <ion-slides pager>\n    <ion-slide options="sliderOptions" *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image"/>\n      <ion-list>\n        <ion-item>\n          <p>{{slide.name}}</p>\n          <button ion-button clear item-end>{{slide.price}}</button>\n        </ion-item>\n\n      </ion-list>\n      <p [innerHTML]="slide.description"></p>\n      <ion-list>\n        <ion-item class="small-item">\n          <ion-input type="text" placeholder="1"></ion-input>\n          <button item-end ion-button secondary >Add To Order</button>\n        </ion-item>\n      </ion-list>\n\n      <button ion-button primary full (click)="goToOrder()">Send Order</button>\n    </ion-slide>\n    <ion-slide>\n      <ion-toolbar>\n      </ion-toolbar>\n      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>\n      <h2 class="slide-title">Ready to Play?</h2>\n      <button ion-button large clear icon-end color="primary">\n        Continue\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/home/kwakhona/Documents/devLAB/Tangent/Hackerthon/unicorn-food-ionic/src/pages/menus/menus.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
 ], MenusPage);
 
-var _a;
 //# sourceMappingURL=menus.js.map
 
 /***/ }),

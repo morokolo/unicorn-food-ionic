@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6371a22c-c3c7-4821-b8cc-9c3d11c96d9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/node-sass/vendor/linux-x64-57/binding.node" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vscode/typings/cordova-ionic/plugins/keyboard.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vscode/typings/jquery/jquery.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/cordova-typings.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.scss" afterPath="$PROJECT_DIR$/src/app/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home/home.html" afterPath="$PROJECT_DIR$/src/pages/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home/home.scss" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/user-registration/user-registration.html" afterPath="$PROJECT_DIR$/src/pages/user-registration/user-registration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/user-registration/user-registration.scss" afterPath="$PROJECT_DIR$/src/pages/user-registration/user-registration.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/main.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/menus/menus.html" afterPath="$PROJECT_DIR$/src/pages/menus/menus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/menus/menus.ts" afterPath="$PROJECT_DIR$/src/pages/menus/menus.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.css" afterPath="$PROJECT_DIR$/www/build/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js" afterPath="$PROJECT_DIR$/www/build/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js.map" afterPath="$PROJECT_DIR$/www/build/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/vendor.js" afterPath="$PROJECT_DIR$/www/build/vendor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/www/build/vendor.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -145,16 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/list/list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,11 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menus.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menus.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/menus/menus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -178,8 +164,8 @@
       <file leaf-file-name="menus.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/menus/menus.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -197,12 +183,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/build/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1506690478000" expanded="true" signature="17:42643" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="1157:1479" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="38322:38338" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="38331:38336" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="38342:38347" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="38352:38357" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="38418:42639" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="38435:38465" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="38548:38568" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="38643:38663" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="38739:38759" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="38922:39405" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="39469:39582" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="39615:39862" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="39648:39687" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="39739:39838" ph="{...}" />
+                <marker date="1506690478000" expanded="true" signature="39814:39829" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="39889:42584" ph="[...]" />
+                <marker date="1506690478000" expanded="true" signature="39950:39965" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="39968:42472" ph="{&quot;selector&quot;: 'page-home'...}" />
+                <marker date="1506690478000" expanded="true" signature="40009:40107" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="42370:42466" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="42560:42579" ph="/*...*/" />
+                <marker date="1506690478000" expanded="true" signature="42632:42637" ph="/*...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,6 +235,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>assets</find>
+      <find>&gt;&gt;&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -241,11 +253,12 @@
         <option value="$PROJECT_DIR$/src/app/app.html" />
         <option value="$PROJECT_DIR$/src/pages/list/list.html" />
         <option value="$PROJECT_DIR$/src/app/app.scss" />
-        <option value="$PROJECT_DIR$/src/pages/menus/menus.ts" />
         <option value="$PROJECT_DIR$/src/pages/user-registration/user-registration.html" />
-        <option value="$PROJECT_DIR$/src/pages/menus/menus.html" />
         <option value="$PROJECT_DIR$/src/pages/menus/menus.scss" />
         <option value="$PROJECT_DIR$/www/build/main.js" />
+        <option value="$PROJECT_DIR$/src/pages/payments/menus.ts" />
+        <option value="$PROJECT_DIR$/src/pages/menus/menus.ts" />
+        <option value="$PROJECT_DIR$/src/pages/menus/menus.html" />
       </list>
     </option>
   </component>
@@ -355,10 +368,6 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -375,6 +384,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,50 +427,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn-food-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn-food-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn-food-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn-food-ionic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -476,6 +445,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
@@ -571,12 +541,12 @@
       <option name="presentableId" value="Default" />
       <updated>1506681225959</updated>
       <workItem from="1506681227793" duration="2658000" />
-      <workItem from="1506685465558" duration="2944000" />
+      <workItem from="1506685465558" duration="3713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5602000" />
+    <option name="totallyTimeSpent" value="6371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -785,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/menus/menus.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/user-registration/user-registration.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -815,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/menus/menus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/menus/menus.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -831,10 +783,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/payments/menus.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/build/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506690478000" expanded="true" signature="17:42643" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="1157:1479" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="38322:38338" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="38331:38336" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="38342:38347" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="38352:38357" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="38418:42639" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="38435:38465" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="38548:38568" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="38643:38663" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="38739:38759" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="38922:39405" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="39469:39582" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="39615:39862" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="39648:39687" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="39739:39838" ph="{...}" />
+            <marker date="1506690478000" expanded="true" signature="39814:39829" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="39889:42584" ph="[...]" />
+            <marker date="1506690478000" expanded="true" signature="39950:39965" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="39968:42472" ph="{&quot;selector&quot;: 'page-home'...}" />
+            <marker date="1506690478000" expanded="true" signature="40009:40107" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="42370:42466" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="42560:42579" ph="/*...*/" />
+            <marker date="1506690478000" expanded="true" signature="42632:42637" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/menus/menus.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/menus/menus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding />
         </state>
       </provider>
