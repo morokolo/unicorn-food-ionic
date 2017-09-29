@@ -1,0 +1,72 @@
+<ion-content padding class="ion-content-home">
+
+  <ion-row class="logo">
+    <img src="assets/logo-1.png">
+  </ion-row>
+
+  <ion-list>
+    <form (ngSubmit)="onSubmit(authForm)" #authForm="ngForm" padding novalidate>
+
+      <ion-item class="no-padding">
+        <ion-input clearInput type="text" placeholder="First Name" required (ngModel)="firstname" name="firstname" #firstname="ngModel" autocapitalize="none"></ion-input>
+      </ion-item>
+      <!--username error divs-->
+      <div [hidden]="firstname.valid || firstname.untouched && !authForm.submitted">
+        <p ion-text color="danger">
+          First Name is required
+        </p>
+      </div>
+
+      <ion-item class="no-padding">
+        <ion-input clearInput type="text" placeholder="Last Name" required (ngModel)="lastname" name="lastname" #lastname="ngModel" autocapitalize="none"></ion-input>
+      </ion-item>
+      <!--username error divs-->
+      <div [hidden]="lastname.valid || lastname.untouched && !authForm.submitted">
+        <p ion-text color="danger">
+          Last Name is required
+        </p>
+      </div>
+
+
+      <ion-item class="no-padding">
+        <ion-input clearInput type="text" placeholder="Cell Number" required (ngModel)="cell" name="cell" #cell="ngModel" ></ion-input>
+      </ion-item>
+      <!--password error divs-->
+      <div [hidden]="cell.valid || cell.untouched && !authForm.submitted">
+        <p ion-text color="danger">
+          Cellphone is required
+        </p>
+      </div>
+
+      <ion-item class="no-padding">
+        <ion-input clearInput type="text" placeholder="Email Address" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>
+      </ion-item>
+      <!--password error divs-->
+      <div [hidden]="email.valid || email.untouched && !authForm.submitted">
+        <p ion-text color="danger">
+          Email address is required
+        </p>
+      </div>
+
+      <ion-item class="no-padding">
+        <ion-input clearInput type="text" placeholder="Image" required (ngModel)="email" name="email" #email="ngModel" ></ion-input>
+      </ion-item>
+      <!--password error divs-->
+      <div [hidden]="email.valid || email.untouched && !authForm.submitted">
+        <p ion-text color="danger">
+          Email address is required
+        </p>
+      </div>
+
+
+      <br><br>
+
+      <button ion-button type="submit" secondary full>Register</button>
+
+    </form>
+    <p ion-text class="text-center" color="vodacom-grey"> Version : {{versionId}} </p>
+  </ion-list>
+
+
+
+</ion-content>

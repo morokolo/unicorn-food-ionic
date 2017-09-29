@@ -1,0 +1,632 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// CUSTOM FONTS
+
+@font-face {
+  font-family: 'OpenSandsRg';
+  font-style: normal;
+  src:  url('../assets/opensans/OpenSans-Regular.ttf') format('truetype');
+}
+
+* {
+  font-family: 'OpenSandsRg';
+}
+
+
+.ion-content-home {
+  $toolbar-background: transparent;
+  background-image: url('../assets/toa-unicorn.jpg') !important;
+  background-size: cover !important;
+}
+
+ion-row.logo.row {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #fff;
+  padding: 10px;
+  border-radius: 57px;
+  margin-top: 40px;
+}
+
+
+
+body {
+
+  &.keyboard-is-open {
+
+    .scroll-content {
+      margin-bottom: 0 !important;
+    }
+
+    .tabbar {
+      display: none;
+    }
+
+    help-center {
+      display: none;
+    }
+
+    .footer-complete-wrapper {
+      display: none;
+    }
+
+  }
+
+}
+
+ion-content {
+
+  background-color: $content-grey !important;
+
+  p {
+    &.text-center {
+      padding: 0 15px;
+    }
+  }
+}
+
+p {
+  line-height: 1.4em !important;
+  font-size: 14px;
+}
+
+.error {
+
+  color: $red;
+
+  &.inline-error {
+    padding: 0 16px !important;
+  }
+
+}
+
+.complete {
+
+  color: $green;
+
+  &.inline-error {
+    padding: 0 16px !important;
+  }
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.big-icon {
+  font-size: 5em;
+}
+
+.med-icon {
+  margin-right: 0 !important;
+  font-size: 1.8em;
+}
+
+.v-align {
+  display: flex;
+  align-items: center;
+}
+
+.v-align-colum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h-align-right {
+  justify-content: flex-end;
+}
+
+.h-align-center {
+  justify-content: center;
+}
+
+.loading-spinner-wrap {
+  height: 100px;
+}
+
+.icon-medium {
+  font-size: 2em;
+}
+
+.icon-big {
+  font-size: 8em;
+}
+
+.footer-tab-bar {
+  min-height: initial;
+}
+
+.footer-tab-bar-btn {
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+
+.red {
+  color: $red;
+}
+
+.btn-red {
+  .button-inner {
+    color: $red;
+  }
+}
+
+.orange {
+  color: $orange;
+}
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.purple {
+  color: $purple;
+}
+
+.border-red {
+  border-color: $red !important;
+}
+
+.border-orange {
+  border-color: $orange !important;
+}
+
+.border-purple {
+  border-color: $purple !important;
+}
+
+.bg-dark-grey {
+  background-color: $dark-grey !important;
+}
+
+.bg-grey {
+  background-color: $grey !important;
+}
+
+.bg-light-grey {
+  background-color: $light-grey !important;
+}
+
+.bg-very-light-grey {
+  background-color: $very-light-grey !important;
+}
+
+.bg-purple {
+  background-color: $purple !important;
+}
+
+.bg-red {
+  background-color: $red !important;
+}
+
+.bg-orange {
+  background-color: $orange !important;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-padding-top {
+  padding-top: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-border-radius {
+  border-radius: 0;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.no-border-bottom {
+  border-bottom: 0 !important;
+}
+
+.clear {
+  clear: both;
+}
+
+.text-center {
+  //padding-left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.round-button {
+  border-radius: 50%;
+  background-color: $white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  color: $black;
+  font-weight: bold;
+}
+
+.round-dot {
+  position: absolute;
+  right: 0;
+  bottom: -9px;
+  left: 0;
+  z-index: 99;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: $red;
+  width: 4px;
+  height: 4px;
+  text-decoration: none;
+  line-height: 40px;
+  color: $black;
+  font-weight: bold;
+}
+
+.filter-btn {
+  padding: 10px;
+}
+
+.single-btn-wrap {
+  margin: 10px;
+  padding: 10px 0 0;
+}
+
+.btn-icon {
+  padding-right: .6em;
+}
+
+.status-circle {
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.disabled {
+  background-color: $dark-grey;
+}
+
+.active {
+  background-color: $green;
+}
+
+.inactive {
+  background-color: $red;
+}
+
+.offline {
+  color: $dark-grey;
+}
+
+.loading-wrap {
+
+  margin-top: 10px;
+
+  ion-spinner {
+    margin-right: 10px;
+  }
+}
+
+.card-margin-btm {
+  ion-card {
+
+    &.card-md {
+      &:last-child {
+        margin-bottom: 55px;
+      }
+    }
+
+    &.card-ios {
+      &:last-child {
+        margin-bottom: 57px;
+      }
+    }
+
+  }
+}
+
+.list-card {
+
+  ion-list-header {
+    background-color: $very-light-grey;
+  }
+
+  .card-header-btn {
+
+    position: relative;
+
+    button {
+      position: absolute;
+      top: 0;
+      right: -2px;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 35px;
+      height: 35px;
+      font-size: 1.7em;
+    }
+
+  }
+
+  .card-btn-padding {
+
+    padding: 16px;
+
+    &:last-child {
+      padding: 0 16px 16px;
+    }
+
+  }
+
+  .error-card {
+    padding-left: 16px;
+  }
+
+  .input-list-padding-bottom {
+    padding-bottom: 1.5em;
+  }
+
+  .input-label-custom {
+    padding-bottom: 0 !important;
+    color: $dark-grey;
+    font-size: 1.2rem;
+  }
+
+  .text-list-padding-bottom {
+    padding-bottom: .6em;
+  }
+
+  .item-select {
+    .item-inner {
+      padding-right: 16px;
+    }
+  }
+
+  .list-header-md {
+    margin-bottom: 0;
+    color: $black;
+  }
+
+  .bg-transparent {
+    background-color: transparent !important;
+  }
+
+  .item-border-top {
+    border-top: 1px solid $border-grey;
+  }
+
+  .item-border-both {
+    border-top: 1px solid $border-grey;
+    border-bottom: 1px solid $border-grey;
+  }
+
+  .item-border-bottom {
+    border-bottom: 1px solid $border-grey;
+  }
+
+  .border-inset {
+    margin-right: 16px;
+    margin-left: 26px;
+    border-top: 1px solid $border-grey;
+  }
+
+  .item-inset {
+
+    //padding-left: 26px !important;
+
+    &.light {
+      color: $dark-grey;
+    }
+  }
+
+  .item-input-padding {
+    background-color: $light-grey;
+    padding-left: 8px;
+  }
+
+  .item-input {
+
+    padding-right: 16px;
+
+    ion-label {
+      padding: 5px 0;
+      color: $dark-grey;
+    }
+
+  }
+
+  .input-validate {
+
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    margin-bottom: -2px !important;
+    padding-left: 10px !important;
+    font-size: 1.2em;
+
+  }
+
+  .item-md {
+
+    .btn-margin-left {
+      position: absolute;
+      right: 16px;
+      bottom: 0;
+      margin: 0;
+      width: 35px;
+      height: 35px;
+    }
+
+  }
+
+  .item-ios {
+
+    border-bottom: 0 !important;
+
+    &.item-border-top-ios {
+      &:first-child {
+        border-top: 1px solid $border-grey !important;
+      }
+    }
+
+    .btn-margin-left {
+      position: absolute;
+      right: 16px;
+      bottom: 0;
+      margin: 0;
+      width: 35px;
+      height: 35px;
+    }
+
+    .item-input-padding {
+
+      .text-input {
+        margin-top: 6px !important;
+      }
+
+    }
+
+    .status-circle {
+      margin-top: 17.5px;
+      margin-bottom: 17.5px;
+    }
+  }
+
+  ion-card-header {
+
+    border-bottom: 1px solid $border-grey;
+    text-transform: capitalize !important;
+    color: $red;
+    font-weight: bolder;
+
+  }
+
+  .item-header {
+    border-top: 1px solid $light-grey !important;
+    border-bottom: 1px solid $light-grey;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid $light-grey;
+  }
+
+}
+
+.footer-complete-wrapper {
+
+  height: 3.2em;
+
+  .footer-complete-btn {
+    margin: 0;
+    box-shadow: none !important;
+    height: 100%;
+  }
+
+}
+
+.single-pane-chart-wrapper {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+
+.md {
+
+  .scroll-content {
+    border: 0;
+  }
+
+  .error {
+    padding-left: 16px;
+  }
+
+  .footer-tab-bar-btn {
+    height: 56px;
+  }
+
+
+  .list-md {
+    margin-top: 0;
+  }
+
+  .list-card {
+
+    .border-bottom-only {
+      border-top: 0 !important;
+      border-bottom: 1px solid $light-grey;
+    }
+
+  }
+
+}
+
+.ios {
+
+  ion-navbar {
+
+    ion-title {
+      padding-right: 50px !important;
+      padding-left: 50px !important;
+    }
+
+  }
+
+  .header-border-bottom {
+    border-bottom: 1px solid $grey;
+  }
+
+  .voip-header {
+
+    &:last-child {
+      border-bottom: 0 !important;
+    }
+
+  }
+
+  .action-sheet-icon {
+    display: none;
+  }
+
+  .list-card {
+
+    .border-bottom-only {
+      border-top: 1px solid $light-grey !important;
+      border-bottom: 1px solid $light-grey;
+    }
+
+  }
+
+}
